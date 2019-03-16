@@ -1,0 +1,25 @@
+body{
+    background-image: url("../images/houndstooth-pattern.png")
+}
+
+nav{
+    margin-bottom: 15px;
+}
+
+main{
+    max-width: 960px;
+    background-color: white;
+}
+
+#profile-pic{
+    max-width: 200px;
+}
+
+.proj-pic{
+    max-width: 200px;
+}
+
+/* footer{
+    position: fixed;
+    bottom: 0;
+} */
