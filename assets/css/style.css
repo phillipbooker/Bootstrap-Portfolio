@@ -53,7 +53,7 @@ a:hover{
 /* Bio Page */
 
 #profile-pic{
-    /* max-width: 200px; */
+    max-width: 300px;
     width: 100%;
     margin-bottom: 10px;
     border-radius: 2px;
@@ -131,4 +131,26 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+
+@media screen and (max-width: 980px){
+    .header-main{
+        border-bottom: solid 1px #1B86C1;
+        margin-bottom: 35px;
+    }
+    
+    #profile-pic{
+        max-width: 200px;
+        margin: auto;
+        margin-bottom: 15px;
+        display: block;
+    }
+
+    .proj-box{
+        max-width: 350px;
+        margin: auto;
+        margin-bottom: 15px;
+        display: block;
+    }
 }
