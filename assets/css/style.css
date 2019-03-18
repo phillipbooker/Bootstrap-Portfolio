@@ -4,7 +4,6 @@ body{
     /* height: 100vh; */
 }
 
-/* Try 100% viewport height */
 
 nav{
     /* margin-bottom: 15px; */
@@ -12,6 +11,7 @@ nav{
     background-color: #f3f3f3;
 }
 
+/* Used for navbar background */
 .bg-light{
     background-color: #f3f3f3;
 }
@@ -20,29 +20,29 @@ header{
     text-align: center;
 }
 
-.dupp{
-    max-width: 960px;
-}
-
 main{
     padding: 15px;
     max-width: 960px;
-    /* background-color: #ffffff; */
     background-color: #e9e9e9;
     border: solid 1px #dddddd;
     margin-top: 10px;
     margin-bottom: 100px;
+    border-radius: 3px;
 }
 
 h1, h2, h3, h4{
-    /* color: #4aaaab; */
     color: #2055AA;
-    /* font-family: 'Georgia', Times, Times New Roman, serif; */
     font-family: 'Josefin Slab', serif;
+    /* font-family: 'Georgia', Times, Times New Roman, serif; */
 }
 
 a{
     color: #2055AA;
+}
+
+a:hover{
+    color: #1AA9B7;
+    text-decoration: none;
 }
 
 .header-main{
@@ -50,19 +50,24 @@ a{
     margin-bottom: 20px;
 }
 
+/* Bio Page */
+
 #profile-pic{
     /* max-width: 200px; */
     width: 100%;
     margin-bottom: 10px;
+    border-radius: 2px;
 }
 
+
+/* Portfolio Page */
 #portfolio{
     max-width: 700px;
 }
 
 .proj-box{
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     /* max-width: 250px; */
 }
 
@@ -94,9 +99,19 @@ a{
     border: solid 1px silver;
 }
 
+.proj-box .card-body{
+    height: 115px;
+}
+
 /* .proj-box{
     border: solid 1px #1B86C1;
 } */
+
+/* Contact Page */
+
+#contact{
+    max-width: 500px;
+}
 
 .btn{
     background: #1B86C1;
